@@ -34,6 +34,8 @@ Or you may need to run:
 
     bundle exec rails generate spree_wysiwyg:install
 
+## Change Js from min to normal
+
 ## Contributing
 
 1. Fork it
