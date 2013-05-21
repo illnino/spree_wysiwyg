@@ -12,6 +12,16 @@ module SpreeWysiwyg
       end
     end
 
+    # Enabling assets precompiling
+    initializer :assets do |app|
+      app.config.assets.precompile +=
+        [
+         "wymeditor/lang/*",
+         "wymeditor/skins/**/*",
+         "wymeditor/iframe/**/*"
+        ]
+    end
+
     config.to_prepare &method(:activate).to_proc
   end
 end
