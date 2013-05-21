@@ -34,7 +34,7 @@ Or you may need to run:
 
     bundle exec rails generate spree_wysiwyg:install
 
-## Change Js from min to normal
+## Add folders into initializer
 
 ## Contributing
 
